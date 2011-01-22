@@ -1,30 +1,3 @@
-Explosivo
-=========
-
-A physics-based 2D art program written in C++.
-
-The code isn't pretty but it's a work-in-progress and will get better as I go.  Really!
-
-Required Libraries
-------------------
-
-* Antigrain
-* FreeType 2
-* jnetlib
-* libpng
-* zlib
-
-These are all included in the Explosivo directory.
-
-Homepage
---------
-
-Binaries and screenshots can be found at the following URL:
-
-http://antimac.org/explosivo
-
-License
--------
 Copyright (c) 2011, Daniel Green / Cosmic Shovel, Inc.
 All rights reserved.
 

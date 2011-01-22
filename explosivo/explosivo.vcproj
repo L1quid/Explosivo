@@ -40,7 +40,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\agg\include;..\..\agg\src;..\..\chipmunk\src;..\..\chipmunk\include\chipmunk\;&quot;..\..\freetype-2.4.4\src\&quot;;&quot;..\..\freetype-2.4.4\include\&quot;"
+				AdditionalIncludeDirectories="..\..\agg\include;..\..\agg\src;..\..\chipmunk\src;..\..\chipmunk\include\chipmunk\;&quot;..\..\freetype-2.4.4\src\&quot;;&quot;..\..\freetype-2.4.4\include\&quot;;..\libpng\zlib;..\libpng\"
 				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"

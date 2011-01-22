@@ -146,7 +146,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="../libpng/zlib/projects/visualc6/Win32_LIB_Release/zlib.lib wsock32.lib"
+				AdditionalDependencies="wsock32.lib"
 				LinkIncremental="1"
 				GenerateDebugInformation="false"
 				SubSystem="2"

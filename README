@@ -1,0 +1,22 @@
+Explosivo
+=========
+
+A physics-based 2D art program written in C++.
+
+The code isn't pretty but it's a work-in-progress and will get better as I go.  Really!
+
+Required Libraries
+------------------
+
+* Antigrain
+* FreeType 2
+* jnetlib
+* libpng
+* zlib
+
+These are all included in the Explosivo directory.
+
+Homepage
+--------
+
+(http://antimac.org/explosivo) -- antimac.org/explosivo

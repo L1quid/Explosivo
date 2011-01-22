@@ -1,0 +1,172 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "grab.cur"
+IDC_CURSOR2             CURSOR                  "grabbing.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "Rightclick"
+    BEGIN
+        POPUP "Color", GRAYED
+        BEGIN
+            MENUITEM "Random",                      ID_RIGHTCLICK_RANDOM_COLOR
+            MENUITEM SEPARATOR
+            MENUITEM "Red",                         ID_RIGHTCLICK_RED
+            MENUITEM "Green",                       ID_RIGHTCLICK_GREEN
+            MENUITEM "Blue",                        ID_RIGHTCLICK_BLUE
+            MENUITEM "Orange",                      ID_RIGHTCLICK_ORANGE
+            MENUITEM "Yellow",                      ID_RIGHTCLICK_YELLOW
+            MENUITEM "Black",                       ID_RIGHTCLICK_BLACK
+            MENUITEM "Grey",                        ID_RIGHTCLICK_GREY
+            MENUITEM "White",                       ID_RIGHTCLICK_WHITE
+        END
+        POPUP "Opacity", GRAYED
+        BEGIN
+            MENUITEM "Random",                      ID_OPACITY_RANDOM
+            MENUITEM SEPARATOR
+            MENUITEM "10%",                         ID_OPACITY_10
+            MENUITEM "20%",                         ID_OPACITY_20
+            MENUITEM "30%",                         ID_OPACITY_30
+            MENUITEM "40%",                         ID_OPACITY_40
+            MENUITEM "50%",                         ID_OPACITY_50
+            MENUITEM "60%",                         ID_OPACITY_60
+            MENUITEM "70%",                         ID_OPACITY_70
+            MENUITEM "80%",                         ID_OPACITY_80
+            MENUITEM "90%",                         ID_OPACITY_90
+            MENUITEM "100%",                        ID_OPACITY_100
+        END
+        POPUP "Shape", GRAYED
+        BEGIN
+            MENUITEM "  Random",                    ID_RIGHTCLICK_RANDOM_SHAPE
+            MENUITEM SEPARATOR
+            MENUITEM "  Square",                    ID_RIGHTCLICK_SQUARE
+            MENUITEM "  Diamond",                   ID_RIGHTCLICK_DIAMOND
+            MENUITEM "  Circle",                    ID_RIGHTCLICK_CIRCLE
+            MENUITEM "  Crossed Circle",            ID_RIGHTCLICK_CROSSEDCIRCLE
+            MENUITEM "  Semi-ellipse (left)",       ID_RIGHTCLICK_SEMI_LEFT
+            MENUITEM "  Semi-ellipse (right)",      ID_RIGHTCLICK_SEMI_RIGHT
+            MENUITEM "  Semi-ellipse (up)",         ID_RIGHTCLICK_SEMI_UP
+            MENUITEM "  Semi-ellipse (down)",       ID_RIGHTCLICK_SEMI_DOWN
+            MENUITEM "  Triangle (left)",           ID_RIGHTCLICK_TRIANGLE_LEFT
+            MENUITEM "  Triangle (right)",          ID_RIGHTCLICK_TRIANGLE_RIGHT
+            MENUITEM "  Triangle (up)",             ID_RIGHTCLICK_TRIANGLE_UP
+            MENUITEM "  Triangle (down)",           ID_RIGHTCLICK_TRIANGLE_DOWN
+            MENUITEM "  Four Rays",                 ID_RIGHTCLICK_FOURRAYS
+            MENUITEM "  Cross",                     ID_RIGHTCLICK_CROSS
+            MENUITEM "  Xing",                      ID_RIGHTCLICK_XING
+            MENUITEM "  Dash",                      ID_RIGHTCLICK_DASH
+            MENUITEM "  Dot",                       ID_RIGHTCLICK_DOT
+            MENUITEM "  Pixel",                     ID_RIGHTCLICK_PIXEL
+        END
+        POPUP "Size", GRAYED
+        BEGIN
+            MENUITEM "Random",                      ID_SIZES_RANDOM
+            MENUITEM SEPARATOR
+            MENUITEM "1",                           ID_SIZES_1
+            MENUITEM "2",                           ID_SIZES_2
+            MENUITEM "4",                           ID_SIZES_4
+            MENUITEM "5",                           ID_SIZES_5
+            MENUITEM "8",                           ID_SIZES_10
+            MENUITEM "10",                          ID_SIZES_15
+            MENUITEM "12",                          ID_SIZES_20
+            MENUITEM "15",                          ID_SIZES_25
+            MENUITEM "20",                          ID_SIZES_50
+            MENUITEM "25",                          ID_SIZES_100
+        END
+        MENUITEM "Shadows",                     ID_RIGHTCLICK_SHADOWS
+        MENUITEM SEPARATOR
+        MENUITEM "Pause\tSpace",                ID_RIGHTCLICK_PAUSE
+        MENUITEM "Show Menu\tM",                ID_RIGHTCLICK_SHOWMENU
+        MENUITEM "Show Stats\tF1",              ID_RIGHTCLICK_SHOW_STATS
+        MENUITEM "Clear",                       ID_RIGHTCLICK_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "Move window\tCtrl+Drag",      ID_RIGHTCLICK_HOLDCTRL, GRAYED
+        MENUITEM "Fullscreen\tDbl Click",       ID_RIGHTCLICK_FULLSCREEN
+        MENUITEM "Always On Top",               ID_RIGHTCLICK_AOT
+        MENUITEM "Send to Shup",                ID_RIGHTCLICK_SHUPLOAD
+        MENUITEM SEPARATOR
+        MENUITEM "About",                       ID_RIGHTCLICK_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "Exit\tEsc",                   ID_RIGHTCLICK_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TTF
+//
+
+IDR_TTF1                TTF                     "..\market_deco.ttf"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

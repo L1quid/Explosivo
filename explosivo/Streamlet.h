@@ -2,7 +2,7 @@
 #define _DEMOS_STREAMLET_H
 
 #include <windows.h>
-#include "../../wdl/ptrlist.h"
+#include "../wdl/ptrlist.h"
 #include "config.h"
 
 class Streamlet

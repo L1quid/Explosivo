@@ -14,7 +14,7 @@
 
 #include "chipmunk.h"
 #include "config.h"
-#include "../../wdl/ptrlist.h"
+#include "../wdl/ptrlist.h"
 #include "intel_rand.h"
 
 extern agg::rgba8 g_kulers[5];

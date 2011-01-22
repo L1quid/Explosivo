@@ -4,7 +4,7 @@
 #include "config.h"
 #include "MenuItem.h"
 #include "PopupMenuItem.h"
-#include "../../wdl/ptrlist.h"
+#include "../wdl/ptrlist.h"
 
 #define ITEM_SPACING 10
 

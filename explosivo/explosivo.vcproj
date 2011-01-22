@@ -63,7 +63,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions="/fixed:no"
-				AdditionalDependencies="../../pnglib/zlib/projects/visualc6/Win32_LIB_Debug/zlibd.lib wsock32.lib"
+				AdditionalDependencies="wsock32.lib"
 				Version="0.2"
 				LinkIncremental="2"
 				GenerateDebugInformation="true"
@@ -145,7 +145,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="../../pnglib/zlib/projects/visualc6/Win32_LIB_Release/zlib.lib wsock32.lib"
+				AdditionalDependencies="../libpng/zlib/projects/visualc6/Win32_LIB_Release/zlib.lib wsock32.lib"
 				LinkIncremental="1"
 				GenerateDebugInformation="false"
 				SubSystem="2"
@@ -1140,110 +1140,6 @@
 				</File>
 				<File
 					RelativePath="..\..\chipmunk\include\chipmunk\constraints\util.h"
-					>
-				</File>
-			</Filter>
-			<Filter
-				Name="jnetlib"
-				>
-				<File
-					RelativePath="..\..\jnetlib\asyncdns.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\asyncdns.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\connection.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\connection.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\httpget.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\httpget.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\httppost.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\httppost.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\httpserv.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\httpserv.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\ircclient.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\ircclient.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\jnetlib.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\listen.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\listen.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\netinc.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\sslconnection.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\sslconnection.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\ssllisten.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\ssllisten.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\udpconnection.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\util.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\util.h"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\webserver.cpp"
-					>
-				</File>
-				<File
-					RelativePath="..\..\jnetlib\webserver.h"
 					>
 				</File>
 			</Filter>

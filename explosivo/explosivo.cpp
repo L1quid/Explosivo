@@ -24,7 +24,7 @@ cpSpace *g_space = NULL;
 #include "scopelock.h"
 //#include "Emitter.h"
 //#include "Streamlet.h"
-#include "../../wdl/ptrlist.h"
+#include "../wdl/ptrlist.h"
 #include "resource.h"
 #include "png.h"
 
@@ -1263,6 +1263,10 @@ void init_kuler()
   const int delimiter_len = strlen(delimiter);
   std::string color_data = GetUrl::Gimme("http://antimac.org/etc/kuler.php");
   const char *base_char = color_data.c_str();
+
+  if (!base_char || !strcmp(base_char, ""))
+    return;
+
   int idx = 0;
   int i = -1;
   int r, g, b;

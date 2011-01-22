@@ -2,7 +2,7 @@
 #define _DEMOS_EMITTER_H
 
 #include "Streamlet.h"
-#include "../../wdl/ptrlist.h"
+#include "../wdl/ptrlist.h"
 
 class Emitter
 {

@@ -40,7 +40,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\agg\include;..\..\agg\src;..\..\chipmunk\src;..\..\chipmunk\include\chipmunk\;&quot;..\..\freetype-2.4.4\src\&quot;;&quot;..\..\freetype-2.4.4\include\&quot;;..\libpng\zlib;..\libpng\"
+				AdditionalIncludeDirectories="..\agg\include;..\agg\src;..\chipmunk\src;..\chipmunk\include\chipmunk\;&quot;..\freetype2\src\&quot;;&quot;..\freetype2\include\&quot;;..\libpng\zlib;..\libpng\"
 				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -66,6 +66,7 @@
 				AdditionalDependencies="wsock32.lib"
 				Version="0.2"
 				LinkIncremental="2"
+				IgnoreAllDefaultLibraries="false"
 				GenerateDebugInformation="true"
 				AssemblyDebug="1"
 				GenerateMapFile="true"
@@ -125,7 +126,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				WholeProgramOptimization="true"
-				AdditionalIncludeDirectories="..\..\agg\include;..\..\agg\src;..\..\chipmunk\src;..\..\chipmunk\include\chipmunk\;&quot;..\..\freetype-2.4.4\src\&quot;;&quot;..\..\freetype-2.4.4\include\&quot;"
+				AdditionalIncludeDirectories="..\agg\include;..\agg\src;..\chipmunk\src;..\chipmunk\include\chipmunk\;&quot;..\freetype2\src\&quot;;&quot;..\freetype2\include\&quot;"
 				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS"
 				RuntimeLibrary="0"
 				UsePrecompiledHeader="0"
@@ -235,687 +236,687 @@
 				Name="agg"
 				>
 				<File
-					RelativePath="..\..\agg\include\agg_alpha_mask_u8.h"
+					RelativePath="..\agg\include\agg_alpha_mask_u8.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_arc.cpp"
+					RelativePath="..\agg\src\agg_arc.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_arc.h"
+					RelativePath="..\agg\include\agg_arc.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_array.h"
+					RelativePath="..\agg\include\agg_array.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_arrowhead.cpp"
+					RelativePath="..\agg\src\agg_arrowhead.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_arrowhead.h"
+					RelativePath="..\agg\include\agg_arrowhead.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_basics.h"
+					RelativePath="..\agg\include\agg_basics.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_bezier_arc.cpp"
+					RelativePath="..\agg\src\agg_bezier_arc.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_bezier_arc.h"
+					RelativePath="..\agg\include\agg_bezier_arc.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\ctrl\agg_bezier_ctrl.cpp"
+					RelativePath="..\agg\src\ctrl\agg_bezier_ctrl.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\ctrl\agg_bezier_ctrl.h"
+					RelativePath="..\agg\include\ctrl\agg_bezier_ctrl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_bitset_iterator.h"
+					RelativePath="..\agg\include\agg_bitset_iterator.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_blur.h"
+					RelativePath="..\agg\include\agg_blur.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_bounding_rect.h"
+					RelativePath="..\agg\include\agg_bounding_rect.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_bspline.cpp"
+					RelativePath="..\agg\src\agg_bspline.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_bspline.h"
+					RelativePath="..\agg\include\agg_bspline.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\ctrl\agg_cbox_ctrl.cpp"
+					RelativePath="..\agg\src\ctrl\agg_cbox_ctrl.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\ctrl\agg_cbox_ctrl.h"
+					RelativePath="..\agg\include\ctrl\agg_cbox_ctrl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_clip_liang_barsky.h"
+					RelativePath="..\agg\include\agg_clip_liang_barsky.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\util\agg_color_conv.h"
+					RelativePath="..\agg\include\util\agg_color_conv.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\util\agg_color_conv_rgb16.h"
+					RelativePath="..\agg\include\util\agg_color_conv_rgb16.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\util\agg_color_conv_rgb8.h"
+					RelativePath="..\agg\include\util\agg_color_conv_rgb8.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_color_gray.h"
+					RelativePath="..\agg\include\agg_color_gray.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_color_rgba.h"
+					RelativePath="..\agg\include\agg_color_rgba.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_config.h"
+					RelativePath="..\agg\include\agg_config.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_adaptor_vcgen.h"
+					RelativePath="..\agg\include\agg_conv_adaptor_vcgen.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_adaptor_vpgen.h"
+					RelativePath="..\agg\include\agg_conv_adaptor_vpgen.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_bspline.h"
+					RelativePath="..\agg\include\agg_conv_bspline.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_clip_polygon.h"
+					RelativePath="..\agg\include\agg_conv_clip_polygon.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_clip_polyline.h"
+					RelativePath="..\agg\include\agg_conv_clip_polyline.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_close_polygon.h"
+					RelativePath="..\agg\include\agg_conv_close_polygon.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_concat.h"
+					RelativePath="..\agg\include\agg_conv_concat.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_contour.h"
+					RelativePath="..\agg\include\agg_conv_contour.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_curve.h"
+					RelativePath="..\agg\include\agg_conv_curve.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_dash.h"
+					RelativePath="..\agg\include\agg_conv_dash.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_gpc.h"
+					RelativePath="..\agg\include\agg_conv_gpc.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_marker.h"
+					RelativePath="..\agg\include\agg_conv_marker.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_marker_adaptor.h"
+					RelativePath="..\agg\include\agg_conv_marker_adaptor.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_segmentator.h"
+					RelativePath="..\agg\include\agg_conv_segmentator.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_shorten_path.h"
+					RelativePath="..\agg\include\agg_conv_shorten_path.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_smooth_poly1.h"
+					RelativePath="..\agg\include\agg_conv_smooth_poly1.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_stroke.h"
+					RelativePath="..\agg\include\agg_conv_stroke.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_transform.h"
+					RelativePath="..\agg\include\agg_conv_transform.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_conv_unclose_polygon.h"
+					RelativePath="..\agg\include\agg_conv_unclose_polygon.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\ctrl\agg_ctrl.h"
+					RelativePath="..\agg\include\ctrl\agg_ctrl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_curves.cpp"
+					RelativePath="..\agg\src\agg_curves.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_curves.h"
+					RelativePath="..\agg\include\agg_curves.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_dda_line.h"
+					RelativePath="..\agg\include\agg_dda_line.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_ellipse.h"
+					RelativePath="..\agg\include\agg_ellipse.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_ellipse_bresenham.h"
+					RelativePath="..\agg\include\agg_ellipse_bresenham.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_embedded_raster_fonts.cpp"
+					RelativePath="..\agg\src\agg_embedded_raster_fonts.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_embedded_raster_fonts.h"
+					RelativePath="..\agg\include\agg_embedded_raster_fonts.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_font_cache_manager.h"
+					RelativePath="..\agg\include\agg_font_cache_manager.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\ctrl\agg_gamma_ctrl.cpp"
+					RelativePath="..\agg\src\ctrl\agg_gamma_ctrl.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\ctrl\agg_gamma_ctrl.h"
+					RelativePath="..\agg\include\ctrl\agg_gamma_ctrl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_gamma_functions.h"
+					RelativePath="..\agg\include\agg_gamma_functions.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_gamma_lut.h"
+					RelativePath="..\agg\include\agg_gamma_lut.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\ctrl\agg_gamma_spline.cpp"
+					RelativePath="..\agg\src\ctrl\agg_gamma_spline.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\ctrl\agg_gamma_spline.h"
+					RelativePath="..\agg\include\ctrl\agg_gamma_spline.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_glyph_raster_bin.h"
+					RelativePath="..\agg\include\agg_glyph_raster_bin.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_gradient_lut.h"
+					RelativePath="..\agg\include\agg_gradient_lut.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_gsv_text.cpp"
+					RelativePath="..\agg\src\agg_gsv_text.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_gsv_text.h"
+					RelativePath="..\agg\include\agg_gsv_text.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_image_accessors.h"
+					RelativePath="..\agg\include\agg_image_accessors.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_image_filters.cpp"
+					RelativePath="..\agg\src\agg_image_filters.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_image_filters.h"
+					RelativePath="..\agg\include\agg_image_filters.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_line_aa_basics.cpp"
+					RelativePath="..\agg\src\agg_line_aa_basics.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_line_aa_basics.h"
+					RelativePath="..\agg\include\agg_line_aa_basics.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_line_profile_aa.cpp"
+					RelativePath="..\agg\src\agg_line_profile_aa.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_math.h"
+					RelativePath="..\agg\include\agg_math.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_math_stroke.h"
+					RelativePath="..\agg\include\agg_math_stroke.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_path_length.h"
+					RelativePath="..\agg\include\agg_path_length.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_path_storage.h"
+					RelativePath="..\agg\include\agg_path_storage.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_path_storage_integer.h"
+					RelativePath="..\agg\include\agg_path_storage_integer.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_pattern_filters_rgba.h"
+					RelativePath="..\agg\include\agg_pattern_filters_rgba.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_pixfmt_amask_adaptor.h"
+					RelativePath="..\agg\include\agg_pixfmt_amask_adaptor.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_pixfmt_gray.h"
+					RelativePath="..\agg\include\agg_pixfmt_gray.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_pixfmt_rgb.h"
+					RelativePath="..\agg\include\agg_pixfmt_rgb.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_pixfmt_rgb_packed.h"
+					RelativePath="..\agg\include\agg_pixfmt_rgb_packed.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_pixfmt_rgba.h"
+					RelativePath="..\agg\include\agg_pixfmt_rgba.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_pixfmt_transposer.h"
+					RelativePath="..\agg\include\agg_pixfmt_transposer.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\ctrl\agg_polygon_ctrl.cpp"
+					RelativePath="..\agg\src\ctrl\agg_polygon_ctrl.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\ctrl\agg_polygon_ctrl.h"
+					RelativePath="..\agg\include\ctrl\agg_polygon_ctrl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_rasterizer_cells_aa.h"
+					RelativePath="..\agg\include\agg_rasterizer_cells_aa.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_rasterizer_compound_aa.h"
+					RelativePath="..\agg\include\agg_rasterizer_compound_aa.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_rasterizer_outline.h"
+					RelativePath="..\agg\include\agg_rasterizer_outline.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_rasterizer_outline_aa.h"
+					RelativePath="..\agg\include\agg_rasterizer_outline_aa.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_rasterizer_scanline_aa.h"
+					RelativePath="..\agg\include\agg_rasterizer_scanline_aa.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_rasterizer_sl_clip.h"
+					RelativePath="..\agg\include\agg_rasterizer_sl_clip.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\ctrl\agg_rbox_ctrl.cpp"
+					RelativePath="..\agg\src\ctrl\agg_rbox_ctrl.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\ctrl\agg_rbox_ctrl.h"
+					RelativePath="..\agg\include\ctrl\agg_rbox_ctrl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_renderer_base.h"
+					RelativePath="..\agg\include\agg_renderer_base.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_renderer_markers.h"
+					RelativePath="..\agg\include\agg_renderer_markers.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_renderer_mclip.h"
+					RelativePath="..\agg\include\agg_renderer_mclip.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_renderer_outline_aa.h"
+					RelativePath="..\agg\include\agg_renderer_outline_aa.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_renderer_outline_image.h"
+					RelativePath="..\agg\include\agg_renderer_outline_image.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_renderer_primitives.h"
+					RelativePath="..\agg\include\agg_renderer_primitives.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_renderer_raster_text.h"
+					RelativePath="..\agg\include\agg_renderer_raster_text.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_renderer_scanline.h"
+					RelativePath="..\agg\include\agg_renderer_scanline.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_rendering_buffer.h"
+					RelativePath="..\agg\include\agg_rendering_buffer.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_rendering_buffer_dynarow.h"
+					RelativePath="..\agg\include\agg_rendering_buffer_dynarow.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_rounded_rect.cpp"
+					RelativePath="..\agg\src\agg_rounded_rect.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_rounded_rect.h"
+					RelativePath="..\agg\include\agg_rounded_rect.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\ctrl\agg_scale_ctrl.cpp"
+					RelativePath="..\agg\src\ctrl\agg_scale_ctrl.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\ctrl\agg_scale_ctrl.h"
+					RelativePath="..\agg\include\ctrl\agg_scale_ctrl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_scanline_bin.h"
+					RelativePath="..\agg\include\agg_scanline_bin.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_scanline_boolean_algebra.h"
+					RelativePath="..\agg\include\agg_scanline_boolean_algebra.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_scanline_p.h"
+					RelativePath="..\agg\include\agg_scanline_p.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_scanline_storage_aa.h"
+					RelativePath="..\agg\include\agg_scanline_storage_aa.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_scanline_storage_bin.h"
+					RelativePath="..\agg\include\agg_scanline_storage_bin.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_scanline_u.h"
+					RelativePath="..\agg\include\agg_scanline_u.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_shorten_path.h"
+					RelativePath="..\agg\include\agg_shorten_path.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_simul_eq.h"
+					RelativePath="..\agg\include\agg_simul_eq.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\ctrl\agg_slider_ctrl.cpp"
+					RelativePath="..\agg\src\ctrl\agg_slider_ctrl.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\ctrl\agg_slider_ctrl.h"
+					RelativePath="..\agg\include\ctrl\agg_slider_ctrl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_allocator.h"
+					RelativePath="..\agg\include\agg_span_allocator.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_converter.h"
+					RelativePath="..\agg\include\agg_span_converter.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_gouraud.h"
+					RelativePath="..\agg\include\agg_span_gouraud.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_gouraud_gray.h"
+					RelativePath="..\agg\include\agg_span_gouraud_gray.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_gouraud_rgba.h"
+					RelativePath="..\agg\include\agg_span_gouraud_rgba.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_gradient.h"
+					RelativePath="..\agg\include\agg_span_gradient.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_gradient_alpha.h"
+					RelativePath="..\agg\include\agg_span_gradient_alpha.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_image_filter.h"
+					RelativePath="..\agg\include\agg_span_image_filter.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_image_filter_gray.h"
+					RelativePath="..\agg\include\agg_span_image_filter_gray.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_image_filter_rgb.h"
+					RelativePath="..\agg\include\agg_span_image_filter_rgb.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_image_filter_rgba.h"
+					RelativePath="..\agg\include\agg_span_image_filter_rgba.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_interpolator_adaptor.h"
+					RelativePath="..\agg\include\agg_span_interpolator_adaptor.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_interpolator_linear.h"
+					RelativePath="..\agg\include\agg_span_interpolator_linear.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_interpolator_persp.h"
+					RelativePath="..\agg\include\agg_span_interpolator_persp.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_interpolator_trans.h"
+					RelativePath="..\agg\include\agg_span_interpolator_trans.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_pattern_gray.h"
+					RelativePath="..\agg\include\agg_span_pattern_gray.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_pattern_rgb.h"
+					RelativePath="..\agg\include\agg_span_pattern_rgb.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_pattern_rgba.h"
+					RelativePath="..\agg\include\agg_span_pattern_rgba.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_solid.h"
+					RelativePath="..\agg\include\agg_span_solid.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_span_subdiv_adaptor.h"
+					RelativePath="..\agg\include\agg_span_subdiv_adaptor.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\ctrl\agg_spline_ctrl.cpp"
+					RelativePath="..\agg\src\ctrl\agg_spline_ctrl.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\ctrl\agg_spline_ctrl.h"
+					RelativePath="..\agg\include\ctrl\agg_spline_ctrl.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_sqrt_tables.cpp"
+					RelativePath="..\agg\src\agg_sqrt_tables.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_trans_affine.cpp"
+					RelativePath="..\agg\src\agg_trans_affine.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_trans_affine.h"
+					RelativePath="..\agg\include\agg_trans_affine.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_trans_bilinear.h"
+					RelativePath="..\agg\include\agg_trans_bilinear.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_trans_double_path.cpp"
+					RelativePath="..\agg\src\agg_trans_double_path.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_trans_double_path.h"
+					RelativePath="..\agg\include\agg_trans_double_path.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_trans_perspective.h"
+					RelativePath="..\agg\include\agg_trans_perspective.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_trans_single_path.cpp"
+					RelativePath="..\agg\src\agg_trans_single_path.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_trans_single_path.h"
+					RelativePath="..\agg\include\agg_trans_single_path.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_trans_viewport.h"
+					RelativePath="..\agg\include\agg_trans_viewport.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_trans_warp_magnifier.cpp"
+					RelativePath="..\agg\src\agg_trans_warp_magnifier.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_trans_warp_magnifier.h"
+					RelativePath="..\agg\include\agg_trans_warp_magnifier.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_vcgen_bspline.cpp"
+					RelativePath="..\agg\src\agg_vcgen_bspline.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_vcgen_bspline.h"
+					RelativePath="..\agg\include\agg_vcgen_bspline.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_vcgen_contour.cpp"
+					RelativePath="..\agg\src\agg_vcgen_contour.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_vcgen_contour.h"
+					RelativePath="..\agg\include\agg_vcgen_contour.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_vcgen_dash.cpp"
+					RelativePath="..\agg\src\agg_vcgen_dash.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_vcgen_dash.h"
+					RelativePath="..\agg\include\agg_vcgen_dash.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_vcgen_markers_term.cpp"
+					RelativePath="..\agg\src\agg_vcgen_markers_term.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_vcgen_markers_term.h"
+					RelativePath="..\agg\include\agg_vcgen_markers_term.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_vcgen_smooth_poly1.cpp"
+					RelativePath="..\agg\src\agg_vcgen_smooth_poly1.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_vcgen_smooth_poly1.h"
+					RelativePath="..\agg\include\agg_vcgen_smooth_poly1.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_vcgen_stroke.cpp"
+					RelativePath="..\agg\src\agg_vcgen_stroke.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_vcgen_stroke.h"
+					RelativePath="..\agg\include\agg_vcgen_stroke.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_vcgen_vertex_sequence.h"
+					RelativePath="..\agg\include\agg_vcgen_vertex_sequence.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_vertex_sequence.h"
+					RelativePath="..\agg\include\agg_vertex_sequence.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_vpgen_clip_polygon.cpp"
+					RelativePath="..\agg\src\agg_vpgen_clip_polygon.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_vpgen_clip_polygon.h"
+					RelativePath="..\agg\include\agg_vpgen_clip_polygon.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_vpgen_clip_polyline.cpp"
+					RelativePath="..\agg\src\agg_vpgen_clip_polyline.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_vpgen_clip_polyline.h"
+					RelativePath="..\agg\include\agg_vpgen_clip_polyline.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\agg_vpgen_segmentator.cpp"
+					RelativePath="..\agg\src\agg_vpgen_segmentator.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\agg_vpgen_segmentator.h"
+					RelativePath="..\agg\include\agg_vpgen_segmentator.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\src\platform\win32\agg_win32_bmp.cpp"
+					RelativePath="..\agg\src\platform\win32\agg_win32_bmp.cpp"
 					>
 				</File>
 				<File
-					RelativePath="..\..\agg\include\platform\win32\agg_win32_bmp.h"
+					RelativePath="..\agg\include\platform\win32\agg_win32_bmp.h"
 					>
 				</File>
 			</Filter>
@@ -923,223 +924,223 @@
 				Name="chipmunk"
 				>
 				<File
-					RelativePath="..\..\chipmunk\src\chipmunk.c"
+					RelativePath="..\chipmunk\src\chipmunk.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\chipmunk.h"
+					RelativePath="..\chipmunk\include\chipmunk\chipmunk.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\chipmunk_ffi.h"
+					RelativePath="..\chipmunk\include\chipmunk\chipmunk_ffi.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\chipmunk_private.h"
+					RelativePath="..\chipmunk\include\chipmunk\chipmunk_private.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\chipmunk_types.h"
+					RelativePath="..\chipmunk\include\chipmunk\chipmunk_types.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\chipmunk_unsafe.h"
+					RelativePath="..\chipmunk\include\chipmunk\chipmunk_unsafe.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpArbiter.c"
+					RelativePath="..\chipmunk\src\cpArbiter.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\cpArbiter.h"
+					RelativePath="..\chipmunk\include\chipmunk\cpArbiter.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpArray.c"
+					RelativePath="..\chipmunk\src\cpArray.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\cpArray.h"
+					RelativePath="..\chipmunk\include\chipmunk\cpArray.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpBB.c"
+					RelativePath="..\chipmunk\src\cpBB.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\cpBB.h"
+					RelativePath="..\chipmunk\include\chipmunk\cpBB.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpBody.c"
+					RelativePath="..\chipmunk\src\cpBody.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\cpBody.h"
+					RelativePath="..\chipmunk\include\chipmunk\cpBody.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpCollision.c"
+					RelativePath="..\chipmunk\src\cpCollision.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\cpCollision.h"
+					RelativePath="..\chipmunk\include\chipmunk\cpCollision.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\constraints\cpConstraint.c"
+					RelativePath="..\chipmunk\src\constraints\cpConstraint.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\constraints\cpConstraint.h"
+					RelativePath="..\chipmunk\include\chipmunk\constraints\cpConstraint.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\constraints\cpDampedRotarySpring.c"
+					RelativePath="..\chipmunk\src\constraints\cpDampedRotarySpring.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\constraints\cpDampedRotarySpring.h"
+					RelativePath="..\chipmunk\include\chipmunk\constraints\cpDampedRotarySpring.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\constraints\cpDampedSpring.c"
+					RelativePath="..\chipmunk\src\constraints\cpDampedSpring.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\constraints\cpDampedSpring.h"
+					RelativePath="..\chipmunk\include\chipmunk\constraints\cpDampedSpring.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\constraints\cpGearJoint.c"
+					RelativePath="..\chipmunk\src\constraints\cpGearJoint.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\constraints\cpGearJoint.h"
+					RelativePath="..\chipmunk\include\chipmunk\constraints\cpGearJoint.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\constraints\cpGrooveJoint.c"
+					RelativePath="..\chipmunk\src\constraints\cpGrooveJoint.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\constraints\cpGrooveJoint.h"
+					RelativePath="..\chipmunk\include\chipmunk\constraints\cpGrooveJoint.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpHashSet.c"
+					RelativePath="..\chipmunk\src\cpHashSet.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\cpHashSet.h"
+					RelativePath="..\chipmunk\include\chipmunk\cpHashSet.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\constraints\cpPinJoint.c"
+					RelativePath="..\chipmunk\src\constraints\cpPinJoint.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\constraints\cpPinJoint.h"
+					RelativePath="..\chipmunk\include\chipmunk\constraints\cpPinJoint.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\constraints\cpPivotJoint.c"
+					RelativePath="..\chipmunk\src\constraints\cpPivotJoint.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\constraints\cpPivotJoint.h"
+					RelativePath="..\chipmunk\include\chipmunk\constraints\cpPivotJoint.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpPolyShape.c"
+					RelativePath="..\chipmunk\src\cpPolyShape.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\cpPolyShape.h"
+					RelativePath="..\chipmunk\include\chipmunk\cpPolyShape.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\constraints\cpRatchetJoint.c"
+					RelativePath="..\chipmunk\src\constraints\cpRatchetJoint.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\constraints\cpRatchetJoint.h"
+					RelativePath="..\chipmunk\include\chipmunk\constraints\cpRatchetJoint.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\constraints\cpRotaryLimitJoint.c"
+					RelativePath="..\chipmunk\src\constraints\cpRotaryLimitJoint.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\constraints\cpRotaryLimitJoint.h"
+					RelativePath="..\chipmunk\include\chipmunk\constraints\cpRotaryLimitJoint.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpShape.c"
+					RelativePath="..\chipmunk\src\cpShape.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\cpShape.h"
+					RelativePath="..\chipmunk\include\chipmunk\cpShape.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\constraints\cpSimpleMotor.c"
+					RelativePath="..\chipmunk\src\constraints\cpSimpleMotor.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\constraints\cpSimpleMotor.h"
+					RelativePath="..\chipmunk\include\chipmunk\constraints\cpSimpleMotor.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\constraints\cpSlideJoint.c"
+					RelativePath="..\chipmunk\src\constraints\cpSlideJoint.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\constraints\cpSlideJoint.h"
+					RelativePath="..\chipmunk\include\chipmunk\constraints\cpSlideJoint.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpSpace.c"
+					RelativePath="..\chipmunk\src\cpSpace.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\cpSpace.h"
+					RelativePath="..\chipmunk\include\chipmunk\cpSpace.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpSpaceComponent.c"
+					RelativePath="..\chipmunk\src\cpSpaceComponent.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpSpaceHash.c"
+					RelativePath="..\chipmunk\src\cpSpaceHash.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\cpSpaceHash.h"
+					RelativePath="..\chipmunk\include\chipmunk\cpSpaceHash.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpSpaceQuery.c"
+					RelativePath="..\chipmunk\src\cpSpaceQuery.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpSpaceStep.c"
+					RelativePath="..\chipmunk\src\cpSpaceStep.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\cpVect.c"
+					RelativePath="..\chipmunk\src\cpVect.c"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\cpVect.h"
+					RelativePath="..\chipmunk\include\chipmunk\cpVect.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\src\prime.h"
+					RelativePath="..\chipmunk\src\prime.h"
 					>
 				</File>
 				<File
-					RelativePath="..\..\chipmunk\include\chipmunk\constraints\util.h"
+					RelativePath="..\chipmunk\include\chipmunk\constraints\util.h"
 					>
 				</File>
 			</Filter>

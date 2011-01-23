@@ -1,0 +1,3 @@
+Explosivo v0.94:
+* Moved the rest of the right-click menu and the about box into the main window overlay.
+* Fixed a crash bug when toggling Fullscreen display mode.

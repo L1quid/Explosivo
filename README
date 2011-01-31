@@ -16,6 +16,11 @@ Required Libraries
 
 These are all included in the Explosivo directory.
 
+Compiling Explosivo
+-------------------
+
+It's easy.  The two build configurations I've setup are Debug and Release, with the rest being not-working defaults supplied by the IDE.  All you need to do is choose a config and build!
+
 Homepage
 --------
 

@@ -21,12 +21,20 @@ Compiling Explosivo
 
 It's easy.  The two build configurations I've setup are Debug and Release, with the rest being not-working defaults supplied by the IDE.  All you need to do is choose a config and build!
 
-Homepage
+Screenshots
+-----------
+
+[<img src="http://antimac.org/etc/explosivo/explosivo-2-th.png">](http://antimac.org/etc/explosivo/explosivo-2.png)
+[<img src="http://antimac.org/etc/explosivo/explosivo-6-th.png">](http://antimac.org/etc/explosivo/explosivo-6.png)
+[<img src="http://antimac.org/etc/explosivo/explosivo-3-th.png">](http://antimac.org/etc/explosivo/explosivo-3.png)
+[<img src="http://antimac.org/etc/explosivo/explosivo-1-th.png">](http://antimac.org/etc/explosivo/explosivo-1.png)
+[<img src="http://antimac.org/etc/explosivo/explosivo-5-th.png">](http://antimac.org/etc/explosivo/explosivo-5.png)
+[<img src="http://antimac.org/etc/explosivo/explosivo-4-th.png">](http://antimac.org/etc/explosivo/explosivo-4.png)
+
+Binaries
 --------
 
-Binaries and screenshots can be found at the following URL:
-
-http://antimac.org/explosivo
+* Explosivo v0.93 -- http://antimac.org/etc/explosivo-0.94.exe
 
 License
 -------
